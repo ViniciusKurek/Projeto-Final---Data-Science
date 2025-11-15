@@ -1,2 +1,5 @@
 pyarrow
 pandas
+matplotlib
+seaborn
+numpy

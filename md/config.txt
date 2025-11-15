@@ -1,0 +1,6 @@
+pandoc a.md -o a.pdf \
+    -V geometry:a4paper \
+    -V geometry:top=3cm \
+    -V geometry:bottom=2cm \
+    -V geometry:left=3cm \
+    -V geometry:right=2cm \
