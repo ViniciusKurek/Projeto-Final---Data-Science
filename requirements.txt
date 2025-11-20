@@ -4,3 +4,5 @@ matplotlib
 seaborn
 duckdb
 scipy
+pyarrow
+fastparquet
