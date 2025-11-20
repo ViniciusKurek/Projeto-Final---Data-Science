@@ -1,5 +1,6 @@
-pyarrow
 pandas
+numpy
 matplotlib
 seaborn
-numpy
+duckdb
+scipy
