@@ -6,3 +6,4 @@ duckdb
 scipy
 pyarrow
 fastparquet
+scikit-learn
