@@ -1,0 +1,540 @@
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Bronx)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -4.126
+RMSE: 0.748
+
+## Coeficientes:
+Lag3    0.578526
+Lag2    0.432390
+Lag1    0.071685
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Fine particles (PM 2.5) ((Bronx))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -6.488
+RMSE: 0.904
+
+## Importância das Features:
+Lag3    0.436876
+Lag1    0.343596
+Lag2    0.219528
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Fine particles (PM 2.5) ((Bronx))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.020
+RMSE: 0.469
+
+## Importância das Features:
+Lag1    0.919794
+Lag3    0.072799
+Lag2    0.007408
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Brooklyn)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.275
+RMSE: 0.466
+
+## Coeficientes:
+Lag3    0.553181
+Lag2    0.269340
+Lag1    0.069795
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Fine particles (PM 2.5) ((Brooklyn))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -3.442
+RMSE: 0.869
+
+## Importância das Features:
+Lag3    0.608336
+Lag2    0.252005
+Lag1    0.139659
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Fine particles (PM 2.5) ((Brooklyn))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.285
+RMSE: 0.624
+
+## Importância das Features:
+Lag1    0.926545
+Lag3    0.058523
+Lag2    0.014932
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Manhattan)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.344
+RMSE: 0.578
+
+## Coeficientes:
+Lag1    0.468353
+Lag2    0.297638
+Lag3    0.296023
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Fine particles (PM 2.5) ((Manhattan))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -19.089
+RMSE: 1.417
+
+## Importância das Features:
+Lag3    0.457288
+Lag1    0.274451
+Lag2    0.268261
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Fine particles (PM 2.5) ((Manhattan))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -15.289
+RMSE: 1.276
+
+## Importância das Features:
+Lag1    0.882582
+Lag3    0.115305
+Lag2    0.002113
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Queens)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.196
+RMSE: 0.389
+
+## Coeficientes:
+Lag3    0.457660
+Lag2    0.362161
+Lag1    0.047810
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Fine particles (PM 2.5) ((Queens))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -6.579
+RMSE: 0.980
+
+## Importância das Features:
+Lag3    0.368843
+Lag2    0.317401
+Lag1    0.313756
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Fine particles (PM 2.5) ((Queens))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -7.112
+RMSE: 1.014
+
+## Importância das Features:
+Lag1    0.904375
+Lag3    0.073786
+Lag2    0.021840
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Staten Island)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.392
+RMSE: 0.554
+
+## Coeficientes:
+Lag3    0.577875
+Lag2    0.201826
+Lag1    0.185967
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Fine particles (PM 2.5) ((Staten Island))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.895
+RMSE: 0.799
+
+## Importância das Features:
+Lag3    0.562859
+Lag2    0.226619
+Lag1    0.210522
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Fine particles (PM 2.5) ((Staten Island))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.749
+RMSE: 0.621
+
+## Importância das Features:
+Lag1    0.899011
+Lag3    0.068870
+Lag2    0.032119
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Nitrogen dioxide (NO2) (Bronx)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -11.990
+RMSE: 2.614
+
+## Coeficientes:
+Lag3    1.370841
+Lag2   -0.268252
+Lag1   -0.522155
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Nitrogen dioxide (NO2) ((Bronx))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.952
+RMSE: 1.442
+
+## Importância das Features:
+Lag3    0.500273
+Lag2    0.342283
+Lag1    0.157443
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Nitrogen dioxide (NO2) ((Bronx))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.592
+RMSE: 1.375
+
+## Importância das Features:
+Lag3    0.901295
+Lag1    0.098355
+Lag2    0.000351
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Nitrogen dioxide (NO2) (Brooklyn)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.692
+RMSE: 1.027
+
+## Coeficientes:
+Lag3    0.969135
+Lag2    0.097378
+Lag1   -0.155995
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Nitrogen dioxide (NO2) ((Brooklyn))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.477
+RMSE: 1.242
+
+## Importância das Features:
+Lag3    0.379068
+Lag2    0.344755
+Lag1    0.276177
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Nitrogen dioxide (NO2) ((Brooklyn))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.415
+RMSE: 0.939
+
+## Importância das Features:
+Lag1    0.908674
+Lag3    0.062570
+Lag2    0.028756
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Nitrogen dioxide (NO2) (Manhattan)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.811
+RMSE: 2.512
+
+## Coeficientes:
+Lag3    1.450003
+Lag2    0.339760
+Lag1   -0.031927
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Nitrogen dioxide (NO2) ((Manhattan))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -7.736
+RMSE: 3.803
+
+## Importância das Features:
+Lag1    0.372157
+Lag3    0.351178
+Lag2    0.276665
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Nitrogen dioxide (NO2) ((Manhattan))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -5.168
+RMSE: 3.196
+
+## Importância das Features:
+Lag1    0.495555
+Lag3    0.493774
+Lag2    0.010671
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Nitrogen dioxide (NO2) (Queens)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -22.157
+RMSE: 2.061
+
+## Coeficientes:
+Lag3    1.121683
+Lag2   -0.193103
+Lag1   -0.222075
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Nitrogen dioxide (NO2) ((Queens))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -14.097
+RMSE: 1.664
+
+## Importância das Features:
+Lag3    0.519080
+Lag2    0.294703
+Lag1    0.186217
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Nitrogen dioxide (NO2) ((Queens))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -5.970
+RMSE: 1.131
+
+## Importância das Features:
+Lag3    0.867937
+Lag1    0.087369
+Lag2    0.044694
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Nitrogen dioxide (NO2) (Staten Island)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.011
+RMSE: 0.656
+
+## Coeficientes:
+Lag3    0.626125
+Lag2    0.043116
+Lag1   -0.140865
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Nitrogen dioxide (NO2) ((Staten Island))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.672
+RMSE: 0.756
+
+## Importância das Features:
+Lag3    0.437816
+Lag2    0.370839
+Lag1    0.191345
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Nitrogen dioxide (NO2) ((Staten Island))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.551
+RMSE: 0.576
+
+## Importância das Features:
+Lag3    0.585459
+Lag2    0.359876
+Lag1    0.054666
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Ozone (O3) (Bronx)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.248
+RMSE: 1.444
+
+## Coeficientes:
+Lag2    0.477723
+Lag1   -0.033295
+Lag3   -1.046401
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Ozone (O3) ((Bronx))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.808
+RMSE: 1.738
+
+## Importância das Features:
+Lag3    0.430441
+Lag1    0.353248
+Lag2    0.216312
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Ozone (O3) ((Bronx))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.586
+RMSE: 2.448
+
+## Importância das Features:
+Lag3    0.581098
+Lag2    0.405569
+Lag1    0.013333
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Ozone (O3) (Brooklyn)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.042
+RMSE: 3.010
+
+## Coeficientes:
+Lag1   -0.228011
+Lag2   -0.535895
+Lag3   -1.085377
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Ozone (O3) ((Brooklyn))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.085
+RMSE: 3.071
+
+## Importância das Features:
+Lag3    0.465754
+Lag1    0.346025
+Lag2    0.188221
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Ozone (O3) ((Brooklyn))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.136
+RMSE: 3.142
+
+## Importância das Features:
+Lag3    0.912396
+Lag1    0.052064
+Lag2    0.035540
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Ozone (O3) (Manhattan)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -20.826
+RMSE: 4.598
+
+## Coeficientes:
+Lag2   -0.316418
+Lag1   -0.684632
+Year   -0.781671
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Ozone (O3) ((Manhattan))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -3.783
+RMSE: 2.152
+
+## Importância das Features:
+Lag3    0.464523
+Lag1    0.405785
+Lag2    0.129692
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Ozone (O3) ((Manhattan))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -5.348
+RMSE: 2.480
+
+## Importância das Features:
+Lag3    0.833913
+Lag1    0.121659
+Lag2    0.044428
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Ozone (O3) (Queens)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.056
+RMSE: 2.731
+
+## Coeficientes:
+Lag2   -0.180679
+Lag1   -0.211774
+Lag3   -0.917769
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Ozone (O3) ((Queens))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.249
+RMSE: 2.970
+
+## Importância das Features:
+Lag3    0.547763
+Lag1    0.331795
+Lag2    0.120443
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Ozone (O3) ((Queens))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.391
+RMSE: 3.135
+
+## Importância das Features:
+Lag3    0.940110
+Lag1    0.048832
+Lag2    0.011058
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Ozone (O3) (Staten Island)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.058
+RMSE: 3.136
+
+## Coeficientes:
+Lag1    0.034476
+Lag2   -0.165657
+Lag3   -0.985092
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RF | Ozone (O3) ((Staten Island))
+Período Treino: 2009 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.106
+RMSE: 3.205
+
+## Importância das Features:
+Lag3    0.479277
+Lag2    0.311926
+Lag1    0.208797
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados GB | Ozone (O3) ((Staten Island))
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -0.805
+RMSE: 4.095
+
+## Importância das Features:
+Lag3    0.850221
+Lag2    0.078225
+Lag1    0.071554
+dtype: float64
+-------------------------------------------------

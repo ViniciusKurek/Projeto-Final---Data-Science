@@ -1,0 +1,150 @@
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Bronx)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -3.095
+RMSE: 0.668
+
+## Coeficientes:
+Lag1    0.761907
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Brooklyn)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.994
+RMSE: 0.824
+
+## Coeficientes:
+Lag1    0.644306
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Manhattan)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.588
+RMSE: 0.508
+
+## Coeficientes:
+Year   -1.024397
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Queens)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.945
+RMSE: 0.707
+
+## Coeficientes:
+Lag1    0.596979
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Staten Island)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.797
+RMSE: 0.786
+
+## Coeficientes:
+Lag1    0.727295
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Bronx)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -3.095
+RMSE: 0.668
+
+## Coeficientes:
+Lag1    0.761907
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Brooklyn)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.994
+RMSE: 0.824
+
+## Coeficientes:
+Lag1    0.644306
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Manhattan)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.588
+RMSE: 0.508
+
+## Coeficientes:
+Year   -1.024397
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Queens)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.945
+RMSE: 0.707
+
+## Coeficientes:
+Lag1    0.596979
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Staten Island)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.797
+RMSE: 0.786
+
+## Coeficientes:
+Lag1    0.727295
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Bronx)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -3.095
+RMSE: 0.668
+
+## Coeficientes:
+Lag1    0.761907
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Brooklyn)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.994
+RMSE: 0.824
+
+## Coeficientes:
+Lag1    0.644306
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Manhattan)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.588
+RMSE: 0.508
+
+## Coeficientes:
+Year   -1.024397
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Queens)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -2.945
+RMSE: 0.707
+
+## Coeficientes:
+Lag1    0.596979
+dtype: float64
+-------------------------------------------------
+-------------------------------------------------
+## Resultados RL | Fine particles (PM 2.5) (Staten Island)
+Período Treino: 2012 - 2019 | Teste: 2020 - 2023
+R-quadrado (R²): -1.797
+RMSE: 0.786
+
+## Coeficientes:
+Lag1    0.727295
+dtype: float64
+-------------------------------------------------
