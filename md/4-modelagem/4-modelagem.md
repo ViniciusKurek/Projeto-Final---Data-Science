@@ -49,7 +49,6 @@ SELECT
         ) AS Lag3
 FROM base
 ORDER BY year;
-"""
 ```
 
 **SQL para preparar o dataset complexo**
@@ -60,13 +59,13 @@ WITH base AS (
         name,
         year,
         AVG(datavalue) AS DataValue
-    FROM P1_seasonal_citywide
+    FROM data
     GROUP BY indicatorid, name, year
 ),
 lag_no2 AS (
     SELECT
-				indicatorid,
-				name,
+        indicatorid,
+        name,
         year,
         DataValue,
         LAG(DataValue, 1) OVER (ORDER BY year) AS Lag1,
@@ -76,9 +75,9 @@ lag_no2 AS (
     WHERE indicatorid = 375
 ),
 lag_pm25 as (
-	  SELECT
-				indicatorid,
-				name,
+	SELECT
+        indicatorid,
+        name,
         year,
         DataValue,
         LAG(DataValue, 1) OVER (ORDER BY year) AS Lag1,
@@ -88,7 +87,7 @@ lag_pm25 as (
     WHERE indicatorid = 365
 ),
 lag_o3 as (
-	  SELECT
+	SELECT
         indicatorid,
         name,
         year,
@@ -122,7 +121,7 @@ ORDER BY b.name, b.year;
 OBS: Para lidar com o conjunto de features com Boro basta adicionar a coluna GeoPlaceName, junto de IndicatorID nas linhas de partition da query simples.
 
 ## Feature selection
-Para selecionar as melhores features para o conjunto Citywide, ou seja, aquelas que podem predizer melhor o futuro, optamos pelo seletor `SelectKBest`, usando o algoritmo *f_regression* do `scikit-learn`. Além disso ao lidarmos com o conjunto dos Boroughs(distritos) utilizamos o RFECV com uma simplificação do classificador a ser utilizado, por exemplo, ao selecionar features para o Linear Regression, também foi treinado o RFECV com o mesmo.
+Para selecionar as melhores features para o conjunto Citywide, ou seja, aquelas que podem predizer melhor o futuro, optamos pelo seletor `SelectKBest`, usando o algoritmo *f_regression* do `scikit-learn`. Além disso ao lidarmos com o conjunto dos Boroughs (distritos) utilizamos o RFECV com uma simplificação do classificador a ser utilizado, por exemplo, ao selecionar features para o Linear Regression, também foi treinado o RFECV com o mesmo.
 
 ## Treino
 Optamos por testar as regressões com os dataframes separados de duas formas diferentes, quando me refiro à citywide, estou considerando entradas no dataframe de origem os quais tiveram a coluna "GeoPlaceName" filtradas pela string "Citywide", o que resulta em dados considerando a média da cidade toda. Já "Borough" são as denominações para os 5 distritos os quais Nova Iorque é divido: Brooklyn, Queens, Staten Island, Bronx e Manhattan; Estamos imaginando que tal divisão pelo chamado "Boro" deveria resultar em dados mais precisos.
@@ -134,7 +133,7 @@ Para ambos os tipos de modelos resolvemos dividir seus respectivos datasets da s
 Para o treino dos baselines utilizamos a regressão linear, já para o treino dos modelos em si foi utilizado a regressão linear, a random forest e o gradient_boosting
 
 ## Treino - Modelo Citywide
-OBS: Algoritmo utilizado para selção  de features foi o SelectKBest do scikit-learn
+OBS: Algoritmo utilizado para seelção  de features foi o SelectKBest do scikit-learn
 
 Para o modelo simples, foi feita a seleção entre as 4 features eenquanto 3 delas foram aplicadas no conjunto chamado features_simples, que contém as seguintes features: 
     ['Lag1', 'Lag2', 'Lag3', 'Year'],
