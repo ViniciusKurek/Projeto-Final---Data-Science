@@ -133,7 +133,7 @@ Para ambos os tipos de modelos resolvemos dividir seus respectivos datasets da s
 Para o treino dos baselines utilizamos a regressão linear, já para o treino dos modelos em si foi utilizado a regressão linear, a random forest e o gradient_boosting
 
 ## Treino - Modelo Citywide
-OBS: Algoritmo utilizado para seelção  de features foi o SelectKBest do scikit-learn
+OBS: Algoritmo utilizado para seleção  de features foi o SelectKBest do scikit-learn
 
 Para o modelo simples, foi feita a seleção entre as 4 features eenquanto 3 delas foram aplicadas no conjunto chamado features_simples, que contém as seguintes features: 
     ['Lag1', 'Lag2', 'Lag3', 'Year'],
@@ -151,19 +151,19 @@ Como baseline, utilizamos o modelo de Regressão Linear(RL) com o TOP 1, escolhi
 ## Testes - Citywide
 A partir do modelo Baseline é possível ver um indício de que é possível prever um R² para o gás NO2, já que foi o único que teve um resultado signficativo quando comparado com o resto:
 
-# Resultados RL - Baseline | Fine particles (PM 2.5) (Citywide)
+### Resultados RL - Baseline | Fine particles (PM 2.5) (Citywide)
 Período Treino: 2012 - 2019 | Teste: 2020 - 2023
 R-quadrado (R²): -2.948
 RMSE: 0.732
 Coeficiente usado: Year(-0.85887)
 
-# Resultados RL - Baseline | Nitrogen dioxide (NO2) (Citywide)
+### Resultados RL - Baseline | Nitrogen dioxide (NO2) (Citywide)
 Período Treino: 2012 - 2019 | Teste: 2020 - 2023
 R-quadrado (R²): 0.188
 RMSE: 0.469
 Coeficiente usado: Year(-0.83841)
 
-# Resultados RL | Ozone (O3) (Citywide)
+### Resultados RL | Ozone (O3) (Citywide)
 Período Treino: 2012 - 2019 | Teste: 2020 - 2023
 R-quadrado (R²): -0.024
 RMSE: 2.488
@@ -171,13 +171,13 @@ Coeficiente escolhido: Lag3(-0.86644)
 
 Sendo assim, isso já nos deu uma dica de que ao menos o NO2 seria possível prever algo utilizando modelos de Machine Learning, e ao executar os testes com múltiplos parâmetros tivemos resultados ainda mais animadores para o NO2, porém PM2.5 e 03, os resultados continuaram ruins, portanto mostraremos apenas os significativos:
 
-# Resultados RL - Conjunto de Features Simples | Nitrogen dioxide (NO2) (Citywide)
+### Resultados RL - Conjunto de Features Simples | Nitrogen dioxide (NO2) (Citywide)
 Período Treino: 2012 - 2019 | Teste: 2020 - 2023
 R-quadrado (R²): 0.542
 RMSE: 0.353
 Features: Lag1(-0.814175), Lag2(-0.874518), Year(-2.167129)
 
-# Resultados RL - Conjunto de Features Complexas | Nitrogen dioxide (NO2) (Citywide)
+### Resultados RL - Conjunto de Features Complexas | Nitrogen dioxide (NO2) (Citywide)
 Período Treino: 2012 - 2019 | Teste: 2020 - 2023
 R-quadrado (R²): 0.488
 RMSE: 0.373
