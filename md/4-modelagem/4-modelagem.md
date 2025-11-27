@@ -186,7 +186,7 @@ Features:Lag1_PM25(-0.174009), Lag1_NO2(-0.353214), Year(-1.271726)
 Observe que para o conjunto Citywide, tentar relacionar NO2 com Lags de outros indicadores foi um problema, como pode ser visto no R² de features complexas, que acabou por selecionar o Lag1 de PM2.5 para tentar prever o modelo de NO2 e isso reduziu a precisão do mesmo. Portanto as melhores features para tal foram as selecionadas no conjunto de features simples.
 
 ## Treino - Borough
-Aqui temos apenas um conjunto de features, que ria equivalente às features simples do modelo Citywide:
+Aqui temos apenas um conjunto de features, que seria equivalente às features simples do modelo Citywide:
     ['Lag1', 'Lag2', 'Lag3', 'Year']
 
 Algoritmo utilizado para seleção de features foi o RFECV do scikit-learn
