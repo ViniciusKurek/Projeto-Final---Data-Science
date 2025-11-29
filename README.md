@@ -7,3 +7,7 @@ Instale as bibliotecas necessárias com: `pip install -r requirements.txt`.
 # Execução
 
 Rode o pipeline na ordem dos arquivos, pois outros datasets são criados e salvos, e precisa ser na ordem que estão numerados.
+
+# Link do vídeo
+
+https://www.youtube.com/watch?v=DXnKv_dx0uE
